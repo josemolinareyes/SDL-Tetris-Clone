@@ -1,5 +1,4 @@
-```markdown
-# 🕹️ Cross-Platform Tetris  
+# 🕹️ Cross-Platform Tetris Clone
 **SDL2 Port**  
 
 ---
@@ -16,13 +15,13 @@
 
 ## 🖥️ Supported Platforms  
 
-| Platform       | Status          | Requirements                  |  
-|----------------|-----------------|-------------------------------|  
-| **Windows**    | ✅ Stable       | [SDL2 Runtime](https://libsdl.org/) |  
-| **Linux**      | ✅ Stable       | `libsdl2-dev`, `libsdl2-ttf-dev` |  
-| **macOS**      | ✅ Stable       | SDL2 via Homebrew             |  
-| **Web**        | 🚧 Experimental| [Emscripten](https://emscripten.org) |  
-| **Mobile**     | 🚧 In Progress  | Android NDK/Xcode             |  
+| Platform       | Status          | Requirements                          |  
+|----------------|-----------------|---------------------------------------|  
+| **Windows**    | ✅ Stable       | [SDL2 Runtime](https://libsdl.org/)   |  
+| **Linux**      | ✅ Stable       | `libsdl2-dev`, `libsdl2-ttf-dev`      |  
+| **macOS**      | ✅ Stable       | SDL2 via Homebrew                     |  
+| **Web**        | 🚧 Experimental| [Emscripten](https://emscripten.org)   |  
+| **Mobile**     | 🚧 In Progress  | Android NDK/Xcode                     |  
 
 ---
 
@@ -90,10 +89,12 @@ emcc tetris.c -s USE_SDL=2 -s USE_SDL_TTF=2 -o tetris.html
 
 ---
 
-## 📜 License & Credits  
-Original code (C) Copyright 1995, Vadim Antonov
+## 📜 Credits  
+Original code (C) 1995, Vadim Antonov
 Port to RetroBSD (C) 2015, Serge Vakulenko
 Port to Windows (command line version) and SDL (C) 2025, José Molina Reyes
 Development assistance: DeepSeek-R1 AI (https://www.deepseek.com)
 
 If you have bug reports or want to contribute to this project, send me an email: josemolinareyes@riseup.net
+
+Tetris is a registered trademark of The Tetris Company, in no way this work is related to the owners of the intellectual property or wants to infringe on their copyright.
