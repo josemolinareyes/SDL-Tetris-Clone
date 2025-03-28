@@ -1,10 +1,6 @@
-I can't directly create downloadable files, but here's the complete `README.md` content that you can copy into a new file. All emojis are properly formatted using **native characters** (will display everywhere):
-
----
-
 ```markdown
 # 🕹️ Cross-Platform Tetris  
-**SDL2 Port | Original Unix Logic Preserved**  
+**SDL2 Port**  
 
 ---
 
@@ -88,26 +84,16 @@ emcc tetris.c -s USE_SDL=2 -s USE_SDL_TTF=2 -o tetris.html
 
 ---
 
+## ⚠️ Requirements
+* arial.ttf font file in executable directory
+* SDL2 runtime libraries
+
+---
+
 ## 📜 License & Credits  
-**Original Unix Code**: [Original Author/Project URL]  
-**SDL2 Port**: [Your Name]  
-**License**: GPL-3.0 (inherited from original code)  
+Original code (C) Copyright 1995, Vadim Antonov
+Port to RetroBSD (C) 2015, Serge Vakulenko
+Port to Windows (command line version) and SDL (C) 2025, José Molina Reyes
+Development assistance: DeepSeek-R1 AI (https://www.deepseek.com)
 
-> 🔗 Emoji reference: [GitHub Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)  
-> 🎮 Live Demo: [Coming Soon]()  
-
----
-
-✨ **Enjoy Classic Tetris Across Platforms!** ✨
-```
-
----
-
-### How to Use:
-1. Copy this entire text
-2. Create new file named `README.md`
-3. Paste content
-4. Replace placeholders (like `[Your Name]`)
-5. Save with `.md` extension
-
-The emojis will render beautifully on GitHub/GitLab and most modern editors. Let me know if you need platform-specific adjustments! 🛠️
+If you have bug reports or want to contribute to this project, send me an email: josemolinareyes@riseup.net
