@@ -97,4 +97,4 @@ emcc tetris.c -s USE_SDL=2 -s USE_SDL_TTF=2 -o tetris.html
 
 If you have bug reports or want to contribute to this project, send me an email: josemolinareyes@riseup.net
 
-Tetris is a registered trademark of The Tetris Company, in no way this work is related to the owners of the intellectual property or wants to infringe on their copyright.
+The game, name, and all associated works of Tetris are owned and trademarked by The Tetris Company, and this work does not claim to be associated in any way with the company nor intends to infringe on their copyright and trademarks.
