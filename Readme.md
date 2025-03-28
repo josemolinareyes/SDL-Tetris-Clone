@@ -90,10 +90,10 @@ emcc tetris.c -s USE_SDL=2 -s USE_SDL_TTF=2 -o tetris.html
 ---
 
 ## 📜 Credits  
-Original code (C) 1995, Vadim Antonov
-Port to RetroBSD (C) 2015, Serge Vakulenko
-Port to Windows (command line version) and SDL (C) 2025, José Molina Reyes
-Development assistance: DeepSeek-R1 AI (https://www.deepseek.com)
+- Original code (C) 1995, Vadim Antonov
+- Port to RetroBSD (C) 2015, Serge Vakulenko
+- Port to Windows (command line version) and SDL (C) 2025, José Molina Reyes
+- Development assistance: DeepSeek-R1 AI (https://www.deepseek.com)
 
 If you have bug reports or want to contribute to this project, send me an email: josemolinareyes@riseup.net
 
